@@ -88,11 +88,16 @@ function gioca(indice) {
         class="casella"
         :aria-label="'Casella ' + (indice + 1)"
         @click="gioca(indice)"
+        :disabled="casella !== null || vincitore !== null"
       >
         {{ casella }}
       </button>
     </div>
-  <button type="button" @click="nuovaPartita">
+  <button
+  type="button"
+  class="nuova-partita"
+  @click="nuovaPartita"
+  > 
   Nuova partita
   </button>
   </main>
@@ -119,5 +124,25 @@ function gioca(indice) {
   background: white;
   color: #0f172a;
   font-size: 40px;
+}
+
+.nuova-partita {
+  margin-top: 20px;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  background: #334155;
+  color: white;
+  font: inherit;
+  cursor: pointer;
+}
+
+.nuova-partita:hover {
+  background: #1e293b;
+}
+
+.nuova-partita:focus-visible {
+  outline: 3px solid #2563eb;
+  outline-offset: 3px;
 }
 </style>
