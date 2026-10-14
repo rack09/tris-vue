@@ -1,5 +1,7 @@
 # 🎮 Tris – Tic Tac Toe con Vue.js
 
+🌐 **Gioca online:** [https://melvinrosales.com/tris-vue/](https://melvinrosales.com/tris-vue/)
+
 [![Vue.js](https://img.shields.io/badge/Vue.js-3-4FC08D?style=flat&logo=vuedotjs&logoColor=white)](https://vuejs.org/)
 [![JavaScript](https://img.shields.io/badge/JavaScript-ES6%2B-F7DF1E?style=flat&logo=javascript&logoColor=black)](https://developer.mozilla.org/it/docs/Web/JavaScript)
 [![CSS](https://img.shields.io/badge/CSS-Grid-1572B6?style=flat&logo=css&logoColor=white)](https://developer.mozilla.org/it/docs/Web/CSS)
@@ -24,6 +26,14 @@ Gioco del Tris per due persone che giocano sullo stesso dispositivo, realizzato 
 - 🤝 Pareggio quando tutte le caselle sono occupate e non esiste un vincitore.
 - 🔁 Pulsante **Nuova partita** per svuotare il tabellone e ripartire da X.
 - 🇮🇹 Interfaccia in italiano.
+
+## 🌐 Demo online
+
+Il gioco è stato pubblicato sul sito web personale ed è accessibile direttamente dal browser, senza installazione locale.
+
+**[https://melvinrosales.com/tris-vue/](https://melvinrosales.com/tris-vue/)**
+
+Nella demo, due persone giocano sullo stesso dispositivo e alternano le mosse tra X e O.
 
 ## 🛠️ Tecnologie utilizzate
 
@@ -137,4 +147,3 @@ Il repository include il codice sorgente, `package.json` e `package-lock.json`. 
 **Melvin Rosales** - progetto didattico del Master Full Stack Development di Start2Impact.
 
 - GitHub: [@rack09](https://github.com/rack09)
-
